@@ -9,6 +9,9 @@ require 'uri'
 require 'cgi'
 require File.expand_path(File.join(File.dirname(__FILE__), "..", "support", "paths"))
 
+require 'webrat'
+require 'webrat/core/matchers'
+
 # Commonly used webrat steps
 # http://github.com/brynary/webrat
 
